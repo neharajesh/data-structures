@@ -56,7 +56,7 @@ public class Stack_ArrayImpl {
     //displaying all stack elements
     void display() {
         System.out.println("Printing stack elements :");
-        for(int i=0; i<top; i++) {
+        for(int i=0; i<=top; i++) {
             System.out.println(arr[i]);
         }
     }
